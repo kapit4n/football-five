@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'football-five';
+	events = [];
+	opened: boolean = true;
+	championships: any[] = [];
+	teams: any[];
+	players: any[];
+	matches: any[];
+
+
+
 }
