@@ -2,11 +2,11 @@
   <mat-sidenav #sidenav mode="side" (closed)="events.push('close!')">
     <h3 matHeader>FAVORITES</h3>
     <mat-list>
-      <h3 matSubheader>CHAMPIONSHIPS</h3>
+      <h3 matSubheader><a routerLink="championships/list">CHAMPIONSHIPS</a></h3>
       <mat-list-item *ngFor="let item of championships">
         <img matListAvatar src="{{item.img}}" alt="...">
         <h4 matLine>
-         <a href="championships/{{item.id}}">{{item.name}}</a></h4>
+         <a routerLink="championships/{{item.id}}">{{item.name}}</a></h4>
       </mat-list-item>
       <mat-divider></mat-divider>
       
