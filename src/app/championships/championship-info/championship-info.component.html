@@ -1,3 +1,38 @@
-<p>
-  championship-info works!
-</p>
+<div>
+  <mat-card class="example-card" *ngIf="team">
+    <div style="height: 350px; overflow: hidden;">
+      <img mat-card-image src="{{team.img}}" class="" alt="Alt">
+    </div>
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>
+        <h1>{{team.name}}</h1>
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        {{team.biography}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card>
+  <mat-tab-group>
+    <mat-tab label="Players">
+      <mat-list>
+        <mat-list-item *ngFor="let player of players">
+          <img matListAvatar src="{{player.icon}}" alt="...">
+          <h3 matLine> <span> {{player.name}} {{player.goals}}</span> </h3>
+          <p matLine>
+            <span class="demo-2">{{player.birthDate | date: 'dd/MM/yyyy'}} </span>
+          </p>
+        </mat-list-item>
+      </mat-list>
+    </mat-tab>
+    <mat-tab label="Newsletters">
+      <app-newsletters [newsletters]="team?.newsletters"></app-newsletters>
+    </mat-tab>
+  </mat-tab-group>
+</div>

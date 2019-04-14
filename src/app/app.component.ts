@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
 	}
 
 	ngOnInit() {
-		this.championships = this.championshipsSvc.getAll();
+		this.championshipsSvc.getAll().subscribe(data => this.championships =data);
 	}
 
 }

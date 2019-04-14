@@ -1,0 +1,119 @@
+[
+{
+  "id": 1,
+  "name": "Barcelona",
+  "img": "http://static.tumblr.com/6128b90a182ae6c0bc37190cbc700ad0/muykxvc/fo8nad02f/tumblr_static_7g0xraagoo84sogssw0swssg4.jpg",
+  "icon": "http://icons.iconarchive.com/icons/giannis-zographos/spanish-football-club/256/FC-Barcelona-icon.png",
+  "biography": "Founded in 1899 by a group of Swiss, English and Catalan footballers led by Joan Gamper, the club has become a symbol of Catalan culture and Catalanism, hence the motto Més que un club (More than a club). Unlike many other football clubs, the supporters own and operate Barcelona. It is the fourth-most valuable sports team in the world, worth $4.06 billion, and the world's second-richest football club in terms of revenue, with an annual turnover of €690.4 million.",
+  "players": [
+  {
+    "id": 1,
+    "name": "Messi",
+    "icon": "https://pbs.twimg.com/profile_images/3577703021/498a60681bea3b182f9ac73b8070b3ce.jpeg",
+    "img": "https://images.performgroup.com/di/library/GOAL/d0/ef/lionel-messi-alaves-barcelona-laliga-26082017_16xo7b0uco5qf1q7jwbto2606o.jpg",
+    "biography": "Lionel Messi was born, 24 June 1987, in Rosario, Argentina to a working-class family. His father was a factory steel worker, and his mother a cleaner. He began playing from an early age, and his talent was soon apparent. However, at the age of 11, Messi was diagnosed with growth hormone deficiency (GHD). "
+  },
+  {
+    "id": 2,
+    "name": "Demebele",
+    "icon": "https://cc-media-foxit.fichub.com/image/fox-it-foxsports/0ba3971b-31dd-4a54-85d1-ba5580c74425/ousmane-dembele-128x128.png",
+    "img": "https://images.cdn.fourfourtwo.com/sites/fourfourtwo.com/files/styles/image_landscape/public/dembele_bar.jpg?itok=obOKo-uY",
+    "biography": "Dembélé began his career at Rennes before joining Dortmund in 2016. A year later, he transferred to Barcelona for an initial fee of €105 million, becoming the joint-second most expensive footballer ever alongside Paul Pogba."
+  }],
+  "newsletters": [
+  {
+    "id": 1,
+    "title": "Messi, with 80 million euros, tops the Forbes list of best-paid Latinos",
+    "description": "Of the ten best-paid Latinos in the entertainment industry in 2017, Argentinian Lionel Messi, Barcelona's star player, tops the list. Messi had earned 80 million dollars until last June, making him the highest paid footballer in the world.",
+    "date": "12/12/12",
+    "img": "http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/12/28/15144398998516.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Messi: Real Madrid's bogeyman",
+    "description": "After a magnificent year, Lionel Messi put the icing on the cake with a superb display at the Estadio Santiago Bernabeu to give his side victory in Saturday's Clasico.The Argentine has a special motivation when he plays against Real Madrid, and even more so when its on the turf of the Bernabeu.In fact, he has won more Clasicos in Madrid than he has at the Camp Nou.",
+    "date": "12/12/12",
+    "img": "http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/12/24/15141207556649.jpg"
+  }]
+},
+{
+  "id": 2,
+  "name": "Real Madrid",
+  "img": "http://www.dawsontravel.ie/assets/userfiles/slide%20Real%202.jpg",
+  "icon": "http://icons.iconarchive.com/icons/giannis-zographos/spanish-football-club/256/Real-Madrid-icon.png",
+  "players": [
+  {
+    "id": 1,
+    "name": "Ramos",
+    "icon": "https://pbs.twimg.com/profile_images/3577703021/498a60681bea3b182f9ac73b8070b3ce.jpeg",
+    "img": "https://images.performgroup.com/di/library/GOAL/d0/ef/lionel-messi-alaves-barcelona-laliga-26082017_16xo7b0uco5qf1q7jwbto2606o.jpg",
+    "biography": "Lionel Messi was born, 24 June 1987, in Rosario, Argentina to a working-class family. His father was a factory steel worker, and his mother a cleaner. He began playing from an early age, and his talent was soon apparent. However, at the age of 11, Messi was diagnosed with growth hormone deficiency (GHD). "
+  },
+  {
+    "id": 2,
+    "name": "Ronaldo",
+    "icon": "https://pbs.twimg.com/profile_images/587962505693044736/gZU6eBM_.jpg",
+    "img": "https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2017/10/24/17/ronaldo-2.jpg",
+    "biography": "Cristiano Ronaldo dos Santos Aveiro GOIH, ComM (Portuguese pronunciation: [kɾiʃ'tjɐnu ʁoˈnaldu]; born 5 February 1985) is a Portuguese professional footballer who plays as a forward for Spanish club Real Madrid and the Portugal national team. Often considered the best player in the world and widely regarded as one of the greatest of all time,[note 1] Ronaldo has five Ballon d'Or awards,[note 2] the most for a European player and is tied for most all-time. He is the first player in history to win four European Golden Shoes. He has won 25 trophies in his career, including five league titles, four UEFA Champions League titles and one UEFA European Championship. A prolific goalscorer, Ronaldo holds the records for most official goals scored in the top five European leagues (373), the UEFA Champions League (114), the UEFA European Championship (29) and the FIFA Club World Cup (7), as well as the most goals scored in a UEFA Champions League season (17). He has scored more than 600 senior career goals for club and country. "
+  }]
+},
+{
+  "id": 3,
+  "name": "Chelsea",
+  "img": "http://www.f-covers.com/cover/chelsea-fc-facebook-cover-timeline-banner-for-fb.jpg",
+  "icon": "http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/256/Chelsea-FC-icon.png"
+},
+{
+  "id": 4,
+  "name": "PSG",
+  "img": "https://www.nvsoccer.com/media/catalog/category/PSG_BANNER.png",
+  "icon": "http://www.futbol24.com/upload/team/France/Paris-St-Germain.png"
+},
+{
+  "id": 5,
+  "name": "Juventus",
+  "img": "https://ugc.kn3.net/i/origin/http://juventus.50webs.org/images/banner_juve.jpg",
+  "icon": "http://www.futbol24.com/upload/team/Italy/Juventus-FC.png"
+},
+{
+  "id": 6,
+  "name": "Tottenham",
+  "img": "http://articles.squarefootball.net/.a/6a00e552103050883401901ce21f0f970b-pi",
+  "icon": "http://www.futbol24.com/upload/team/England/Tottenham.png"
+},
+{
+  "id": 7,
+  "name": "FC Basel",
+  "img": "https://shop.fcb.ch/out/zoxidchild/img/logo-mobile-fcbasel.svg",
+  "icon": "http://www.futbol24.com/upload/team/Switzerland/FC-Basel.png"
+},
+{
+  "id": 8,
+  "name": "Manchester City",
+  "img": "https://www.nvsoccer.com/media/catalog/category/MANCHESTER_CITY_BANNER.png",
+  "icon": "https://pespespes.files.wordpress.com/2013/07/manchester-city-fc.png"
+},
+{
+  "id": 9,
+  "name": "Bayern Munich",
+  "img": "http://www.dawsontravel.ie/assets/userfiles/slide%20Bayern%201.jpg",
+  "icon": "http://www.futbol24.com/upload/team/Germany/Bayern-Munchen.png"
+},
+{
+  "id": 10,
+  "name": "Roma",
+  "img": "http://www.footballasromastore.com/image/data/index_banner1.jpg",
+  "icon": "http://www.futbol24.com/upload/team/Italy/AS-Roma.png"
+},
+{
+  "id": 11,
+  "name": "Manchester United",
+  "img": "http://www.f-covers.com/cover/manchester-united-football-club-facebook-cover-timeline-banner-for-fb.jpg",
+  "icon": "http://www.futbol24.com/upload/team/England/Manchester-United.png"
+},
+{
+  "id": 12,
+  "name": "Liverpool",
+  "img": "https://i.pinimg.com/originals/af/2a/b2/af2ab2d1d60e6ce354eb7fb6e665f4f4.jpg",
+  "icon": "https://img00.deviantart.net/2cc6/i/2008/016/c/c/liverpool_fc_dock_icon_by_jackbarnard.png"
+}]

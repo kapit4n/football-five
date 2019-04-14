@@ -1,0 +1,22 @@
+[
+    {
+        "visit": {
+            "id": 2,
+            "name": "Barcelona",
+            "img": "http://static.tumblr.com/6128b90a182ae6c0bc37190cbc700ad0/muykxvc/fo8nad02f/tumblr_static_7g0xraagoo84sogssw0swssg4.jpg",
+            "icon": "http://icons.iconarchive.com/icons/giannis-zographos/spanish-football-club/256/FC-Barcelona-icon.png",
+            "players": []
+        },
+        "local": {
+            "id": 3,
+            "name": "Reak Madrid",
+            "img": "http://icons.iconarchive.com/icons/giannis-zographos/spanish-football-club/256/Real-Madrid-icon.png",
+            "icon": "http://icons.iconarchive.com/icons/giannis-zographos/spanish-football-club/256/Real-Madrid-icon.png",
+            "players": []
+        },
+        "localGoal": 0,
+        "visitGoal": 0,
+        "matchDate": "10/28",
+        "matchTime": "11:15 PM"
+    }
+]

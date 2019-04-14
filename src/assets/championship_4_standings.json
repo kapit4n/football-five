@@ -1,0 +1,26 @@
+[
+  {
+    "team": {
+      "id": 1,
+      "name": "Royal Pari",
+      "img": "https://a.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fsoccer%2F500%2F18984.png",
+      "icon": "https://a.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fsoccer%2F500%2F18984.png",
+      "players": []
+    },
+    "points": 6,
+    "MP": 2,
+    "GD": 3
+  },
+  {
+    "team": {
+      "id": 4,
+      "name": "Monagas SC",
+      "img": "https://a.espncdn.com/i/teamlogos/soccer/500/6041.png",
+      "icon": "https://a.espncdn.com/i/teamlogos/soccer/500/6041.png",
+      "players": []
+    },
+    "points": 6,
+    "MP": 2,
+    "GD": 4
+  }
+]

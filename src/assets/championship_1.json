@@ -1,0 +1,23 @@
+{
+    "id": 1,
+    "name": "Champions league",
+    "description": "Championship description",
+    "img": "assets/champions_league_banner.jpg",
+    "banner": "assets/champions_league_banner.jpg",
+    "newsletters": [
+        {
+            "id": 1,
+            "title": "Messi, with 80 million euros, tops the Forbes list of best-paid Latinos",
+            "description": "Of the ten best-paid Latinos in the entertainment industry in 2017, Argentinian Lionel Messi, Barcelona's star player, tops the list. Messi had earned 80 million dollars until last June, making him the highest paid footballer in the world.",
+            "date": "12/01/2018",
+            "img": "http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/12/28/15144398998516.jpg"
+        },
+        {
+            "id": 1,
+            "title": "Messi: Real Madrid's bogeyman",
+            "description": "After a magnificent year, Lionel Messi put the icing on the cake with a superb display at the Estadio Santiago Bernabeu to give his side victory in Saturday's Clasico.The Argentine has a special motivation when he plays against Real Madrid, and even more so when its on the turf of the Bernabeu.In fact, he has won more Clasicos in Madrid than he has at the Camp Nou.",
+            "date": "12/01/2018",
+            "img": "http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/12/24/15141207556649.jpg"
+        }
+    ]
+}

@@ -2,7 +2,7 @@
   <mat-sidenav #sidenav mode="side" (closed)="events.push('close!')">
     <h3 matHeader>FAVORITES</h3>
     <mat-list>
-      <h3 matSubheader><a routerLink="championships/list">CHAMPIONSHIPS</a></h3>
+      <h3 matSubheader><a routerLink="championships">CHAMPIONSHIPS</a></h3>
       <mat-list-item *ngFor="let item of championships">
         <img matListAvatar src="{{item.src}}" alt="...">
         <h4 matLine>

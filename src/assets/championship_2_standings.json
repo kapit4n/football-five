@@ -1,0 +1,38 @@
+[
+  {
+    "team": {
+      "id": 1,
+      "name": "Atletico Madrid",
+      "img": "http://www.timelinecoverbanner.com/facebook-covers/2012/01/atletico-madrid.jpg",
+      "icon": "http://aux.iconspalace.com/uploads/atletico-madrid-logo-icon-256.png",
+      "players": []
+    },
+    "points": 15,
+    "MP": 5,
+    "GD": 8
+  },
+  {
+    "team": {
+      "id": 2,
+      "name": "Barcelona",
+      "img": "http://static.tumblr.com/6128b90a182ae6c0bc37190cbc700ad0/muykxvc/fo8nad02f/tumblr_static_7g0xraagoo84sogssw0swssg4.jpg",
+      "icon": "http://icons.iconarchive.com/icons/giannis-zographos/spanish-football-club/256/FC-Barcelona-icon.png",
+      "players": []
+    },
+    "points": 15,
+    "MP": 8,
+    "GD": 10
+  },
+  {
+    "team": {
+      "id": 3,
+      "name": "Reak Madrid",
+      "img": "http://icons.iconarchive.com/icons/giannis-zographos/spanish-football-club/256/Real-Madrid-icon.png",
+      "icon": "http://icons.iconarchive.com/icons/giannis-zographos/spanish-football-club/256/Real-Madrid-icon.png",
+      "players": []
+    },
+    "points": 14,
+    "MP": 8,
+    "GD": 5
+  }
+]

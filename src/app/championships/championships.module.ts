@@ -7,11 +7,14 @@ import { ChampionshipInfoComponent } from './championship-info/championship-info
 
 import { ChampionshipsService } from '../services/championships.service';
 
+import { MaterialImportsModule } from './../material-imports/material-imports.module'
+
 @NgModule({
   declarations: [ChampionshipListComponent, ChampionshipInfoComponent],
   imports: [
     CommonModule,
-    ChampionshipsRoutingModule
+    ChampionshipsRoutingModule,
+    MaterialImportsModule
   ],
   providers: [ ChampionshipsService ]
 })

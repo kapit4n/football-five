@@ -6,11 +6,11 @@ import { ChampionshipInfoComponent } from './championship-info/championship-info
 
 const routes: Routes = [
   {
-    path: 'list',
+    path: '',
     component: ChampionshipListComponent
   },
   {
-    path: 'info',
+    path: ':id',
     component: ChampionshipInfoComponent
   }
 ];

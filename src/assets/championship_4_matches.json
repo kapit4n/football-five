@@ -1,0 +1,23 @@
+[
+  {
+    "local": {
+      "id": 2,
+      "name": "Royal Pari",
+      "img": "https://a.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fsoccer%2F500%2F18984.png",
+      "icon": "https://a.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fsoccer%2F500%2F18984.png",
+      "players": []
+    },
+    "visit": {
+      "id": 3,
+      "name": "Monagas SC",
+      "img": "https://a.espncdn.com/i/teamlogos/soccer/500/6041.png",
+      "icon": "https://a.espncdn.com/i/teamlogos/soccer/500/6041.png",
+      "players": []
+    },
+    "localGoal": 0,
+    "visitGoal": 0,
+    "matchDate": "Tue, 2/14",
+    "matchTime": "",
+    "status": "First Round"
+  }
+]
