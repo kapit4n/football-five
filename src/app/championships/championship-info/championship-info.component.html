@@ -1,17 +1,17 @@
 <div>
-  <mat-card class="example-card" *ngIf="team">
-    <div style="height: 350px; overflow: hidden;">
-      <img mat-card-image src="{{team.img}}" class="" alt="Alt">
+  <mat-card class="example-card">
+    <div class="banner-ch">
+        <img mat-card-image src="{{championship?.banner}}" alt="Alt">
     </div>
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>
-        <h1>{{team.name}}</h1>
+        <h1>{{championship?.name}}</h1>
       </mat-card-title>
     </mat-card-header>
     <mat-card-content>
       <p>
-        {{team.biography}}
+        {{championship?.description}}
       </p>
     </mat-card-content>
     <mat-card-actions>
@@ -20,19 +20,18 @@
     </mat-card-actions>
   </mat-card>
   <mat-tab-group>
-    <mat-tab label="Players">
-      <mat-list>
-        <mat-list-item *ngFor="let player of players">
-          <img matListAvatar src="{{player.icon}}" alt="...">
-          <h3 matLine> <span> {{player.name}} {{player.goals}}</span> </h3>
-          <p matLine>
-            <span class="demo-2">{{player.birthDate | date: 'dd/MM/yyyy'}} </span>
-          </p>
-        </mat-list-item>
-      </mat-list>
+    <mat-tab label="Matches">
+      <div class="match-vs-container" *ngFor="let match of matches">
+        <app-match-vs [match]="match"></app-match-vs>
+      </div>
+    </mat-tab>
+    
+    <mat-tab label="Standings">
+      <app-standing-table-groups *ngIf="championship.groups" [standingGroups]="standingGroups"></app-standing-table-groups>
+      <app-standing-table *ngIf="!championship.groups" [standingTeams]="standingGroups"></app-standing-table>
     </mat-tab>
     <mat-tab label="Newsletters">
-      <app-newsletters [newsletters]="team?.newsletters"></app-newsletters>
+      <app-newsletters [newsletters]="championship?.newsletters"></app-newsletters>
     </mat-tab>
   </mat-tab-group>
 </div>
