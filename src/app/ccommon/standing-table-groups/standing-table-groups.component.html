@@ -1,0 +1,4 @@
+<div *ngFor="let standingGroup of standingGroups">
+  <h1>Group: {{standingGroup.group}}</h1>
+  <app-standing-table [standingTeams]="standingGroup.teams"></app-standing-table>
+</div>

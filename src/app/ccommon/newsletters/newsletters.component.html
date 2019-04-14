@@ -1,0 +1,10 @@
+<mat-list>
+  <mat-list-item *ngFor="let news of newsletters">
+    <img matListAvatar src="{{news.img}}" alt="...">
+    <h3 matLine> <span> {{news.title}} </span> </h3>
+    <p matLine>
+      <span>{{news.date | date: 'dd/MM/yyyy'}} </span>
+      <span>{{news.description}} </span>
+    </p>
+  </mat-list-item>
+</mat-list>

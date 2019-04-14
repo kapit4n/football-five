@@ -1,0 +1,23 @@
+<table mat-table class="standing-table mat-elevation-z8">
+  <tr>
+    <th style="width: 200px;">Club</th>
+    <th>MP</th>
+    <th>GD</th>
+    <th>Pts</th>
+  </tr>
+  <tr *ngFor="let team of standingTeams | standingSort">
+    <td>
+      <mat-icon matListIcon><img matListAvatar src="{{team.team.icon}}" alt="..." style="width: 30px;"></mat-icon>
+      <span style="padding-left: 10px;">{{team.team.name}}</span>
+    </td>
+    <td>
+      <span> {{team.MP}} </span>
+    </td>
+    <td>
+      <span> {{team.GD}} </span>
+    </td>
+    <td>
+      <span> {{team.points}} </span>
+    </td>
+  </tr>
+</table>

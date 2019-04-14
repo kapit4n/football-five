@@ -9,12 +9,15 @@ import { ChampionshipsService } from '../services/championships.service';
 
 import { MaterialImportsModule } from './../material-imports/material-imports.module'
 
+import { CcommonModule } from './../ccommon/ccommon.module'
+
 @NgModule({
   declarations: [ChampionshipListComponent, ChampionshipInfoComponent],
   imports: [
     CommonModule,
     ChampionshipsRoutingModule,
-    MaterialImportsModule
+    MaterialImportsModule,
+    CcommonModule
   ],
   providers: [ ChampionshipsService ]
 })

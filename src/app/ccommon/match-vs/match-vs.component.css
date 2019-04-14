@@ -1,0 +1,41 @@
+.match-vs {
+  width: 60%;
+  display: inline-block;
+  border-left: 6px solid red;
+  border-right: 2px solid rgb(107, 102, 102);
+}
+
+.match-vs .team {
+  width: 30px;
+  height: 30px;
+  display: block;
+  display: inline-block;
+}
+
+.match-info {
+  width: 30%;
+  display: inline-block;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .match-vs {
+    width: 60%;
+    display: inline-block;
+    border-left: 6px solid red;
+    border-right: 2px solid rgb(107, 102, 102);
+  }
+
+  .match-vs .team {
+    width: 30px;
+    height: 30px;
+    display: block;
+    display: inline-block;
+  }
+
+  .match-info {
+    width: 30%;
+    display: inline-block;
+    padding: 10px;
+  }
+}
