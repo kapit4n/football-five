@@ -12,8 +12,17 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 
 import 'rxjs/Rx'; //get everything from Rx    
 
+interface Player {
+	id: number;
+	name: string;
+	img: string;
+	biography: string;
+}
 
 
+@Injectable({
+  providedIn: 'root'
+})
 @Injectable()
 export class PlayerService {
   
@@ -36,10 +45,8 @@ export class PlayerService {
   /** 
    * Return a Observable with the list of players
    */
-	getPlayers(): Observable<any[]> {
-		return this.http.get(this.jsonFileURL).map((response: Response) => {
-			return <any>response.json()
-		}).catch(this.handleError);
+	getPlayers(): Observable<Player[]> {
+		return this.http.get(this.jsonFileURL) as Observable<Player[]>;
 	}
 
   /** 
