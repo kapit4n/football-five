@@ -5,11 +5,14 @@ import {throwError as observableThrowError,
 } from 'rxjs';
 import { Injectable } from '@angular/core';
 
-import { HttpClient, HttpErrorResponse, HttpResponse } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
-
-import 'rxjs/Rx'; //get everything from Rx    
-
+interface Team {
+  id: number;
+  name: string;
+  img: string;
+  biography: string;
+}
 
 @Injectable({
   providedIn: 'root'
@@ -20,6 +23,8 @@ export class TeamService {
 
   /** json URL */
   private jsonFileURL: string = "../assets/teams.json";
+  
+  private jsonFileByIdURL: string = "../assets/teams_@id.json";
 
   /** json URL */
   private jsonPlayersURL: string = "../assets/teams_@id_players.json";
@@ -44,13 +49,8 @@ export class TeamService {
   /**
    * Return an observable with the yeam that matches the id
    */
-  getTeamById(id: any): Observable<any> {
-    return this.http
-      .get(this.jsonFileURL)
-      .map((response: Response) => {
-        return <any>response.json()[id - 1];
-      })
-      .catch(this.handleError);
+  getTeamById(id: any): Observable<Team[]> {
+    return this.http.get(this.jsonFileURL) as Observable<Team[]>;
   }
 
   /**
@@ -63,18 +63,8 @@ export class TeamService {
   /**
    * Return an observable with the list of teams
    */
-  getTeams(): Observable<any> {
-    return this.http
-      .get(this.jsonFileURL)
-      .map((response: Response) => {
-        return <any>response.json();
-      })
-      .catch(this.handleError);
+  getTeams(): Observable<Team[]> {
+    return this.http.get(this.jsonFileURL) as Observable<Team[]>;
   }
 
-  /** Handles the response error */
-  private handleError(errorResponse: Response) {
-    console.log(errorResponse.statusText);
-    return observableThrowError(errorResponse.json || "Server error");
-  }
 }
