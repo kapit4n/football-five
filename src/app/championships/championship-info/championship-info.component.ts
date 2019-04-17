@@ -38,7 +38,7 @@ export class ChampionshipInfoComponent implements OnInit {
 	getChampionship(id: any): void {
 		this.championshipService.getChampionshipById(id)
 			.subscribe(championship => {
-				this.championship = championship;
+				this.championship = championship.find(x => x.id == id);
 			});
 	}
 	

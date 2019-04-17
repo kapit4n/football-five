@@ -17,11 +17,14 @@ export class AppComponent implements OnInit {
 	matches: any[];
 
 	constructor(private championshipsSvc: ChampionshipsService) {
-		
+		console.log("APPPPPPPPPPPPPP");
 	}
 
 	ngOnInit() {
-		this.championshipsSvc.getAll().subscribe(data => this.championships =data);
+		this.championshipsSvc.getChampionships().subscribe(data => {
+			console.log(data);
+			this.championships = data
+		});
 	}
 
 }
