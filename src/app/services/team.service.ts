@@ -50,7 +50,7 @@ export class TeamService {
    * Return an observable with the yeam that matches the id
    */
   getTeamById(id: any): Observable<Team[]> {
-    return this.http.get(this.jsonFileURL) as Observable<Team[]>;
+    return this.http.get(this.jsonFileByIdURL.replace("@id", id)) as Observable<Team[]>;
   }
 
   /**
