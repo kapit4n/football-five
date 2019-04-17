@@ -14,4 +14,6 @@ export class StandingTableComponent implements OnInit {
   ngOnInit() {
   }
 
+  displayedColumns: string[] = ['name', 'MP', 'GD', 'points'];
+
 }

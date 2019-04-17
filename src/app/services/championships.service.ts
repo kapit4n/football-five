@@ -69,15 +69,15 @@ export class ChampionshipsService {
   /**
    * Gets Championship Standings by Championship Id
    */
-	getStandingsById(id: any): Observable<any> {
-		return this.http.get(this.jsonStandingsURL.replace("@id", id));
+	getStandingsById(id: any): Observable<any[]> {
+		return this.http.get(this.jsonStandingsURL.replace("@id", id)) as Observable<any[]>;
 	}
 
   /**
    * Gets Matches Standings by Championship Id
    */
-	getMatchesById(id: any): Observable<any> {
-		return this.http.get(this.jsonMatchesURL.replace("@id", id));
+	getMatchesById(id: any): Observable<any[]> {
+		return this.http.get(this.jsonMatchesURL.replace("@id", id))  as Observable<any[]>;
 	}
 
 
