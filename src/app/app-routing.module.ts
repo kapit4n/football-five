@@ -11,6 +11,10 @@ const routes: Routes = [
     loadChildren: './team/team.module#TeamModule'
   },
   {
+    path: 'players',
+    loadChildren: './player/player.module#PlayerModule'
+  },
+  {
     path: '',
     redirectTo: 'championships',
     pathMatch: 'full'

@@ -1,3 +1,6 @@
-<p>
-  championship-list works!
-</p>
+<mat-list>
+  <mat-list-item *ngFor="let c of championships">
+    <img matListAvatar src="{{c.img}}" alt="...">
+    <a routerLink="{{'/championships/' + c.id}}">{{c.name}}</a>
+  </mat-list-item>
+</mat-list>

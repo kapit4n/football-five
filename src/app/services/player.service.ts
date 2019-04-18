@@ -8,6 +8,13 @@ import { Injectable } from '@angular/core';
 
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 
+interface Player {
+	id: number;
+	name: string;
+	biography: string;
+	img: string;
+	icon: string;
+}
 
 
 import 'rxjs/Rx'; //get everything from Rx    
@@ -31,6 +38,8 @@ export class PlayerService {
   
   /** json URL*/
 	private jsonFileURL: string = "../assets/players.json";
+	
+	private jsonFileByIdURL: string = "../assets/players_@id.json";
 
   /** Player service contructor*/
 	constructor(private http: HttpClient) { }
@@ -59,12 +68,9 @@ export class PlayerService {
   /**
    * Return an observable with player that match the id param
   */
-	getPlayerById(id: any): Observable<any> {
-		return this.http.get(this.jsonFileURL).map((response: Response) => {
-			return <any>response.json()[id - 1]
-		}).catch(this.handleError);
+	getPlayerById(id: any): Observable<Player> {
+    return this.http.get(this.jsonFileByIdURL.replace("@id", id)) as Observable<Player>;
 	}
-
   /**
    * Handles response error
    */
