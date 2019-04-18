@@ -1,3 +1,23 @@
 .standing-table {
     width: 380px;
 }
+
+.mat-column-MP {
+    flex: 0 0 10% !important;
+    min-width: 75px !important;
+}
+
+.mat-column-GD {
+    flex: 0 0 10% !important;
+    min-width: 75px !important;
+}
+
+.mat-column-points {
+    flex: 0 0 10% !important;
+    min-width: 75px !important;
+}
+
+.mat-column-name {
+    flex: 0 0 30% !important;
+    min-width: 104px !important;
+}
