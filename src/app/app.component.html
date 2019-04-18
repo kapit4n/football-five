@@ -10,17 +10,17 @@
       </mat-list-item>
       <mat-divider></mat-divider>
       
-      <h3 matSubheader>TEAMS</h3>
+      <h3 matSubheader><a routerLink="teams">TEAMS</a></h3>
       <mat-list-item *ngFor="let item of teams">
         <img matListAvatar src="{{item.icon}}" alt="...">
-        <h4 matLine><a href="teams/{{item.id}}">{{item.name}}</a></h4>
+        <h4 matLine><a routerLink="teams/{{item.id}}">{{item.name}}</a></h4>
       </mat-list-item>
       <mat-divider></mat-divider>
 
-      <h3 matSubheader>PLAYERS</h3>
+      <h3 matSubheader><a routerLink="players">PLAYERS</a></h3>
       <mat-list-item *ngFor="let item of players">
         <img matListAvatar src="{{item.icon}}" alt="...">
-        <h4 matLine><a href="players/{{item.id}}">{{item.name}}</a></h4>
+        <h4 matLine><a routerLink="players/{{item.id}}">{{item.name}}</a></h4>
       </mat-list-item>
     </mat-list>
     <br>

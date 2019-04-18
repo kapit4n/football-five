@@ -1,3 +1,13 @@
-<p>
-  player-list works!
-</p>
+<div>
+    <mat-card *ngFor="let item of players" style="display: inline-block; margin: 20px; width: 140px;">
+      <img src="{{item.icon}}" style="width: 100px;" class="mat-card-image" alt="image caption">
+      <mat-card-content>
+        <h2>{{item.name}}</h2>
+        <p>{{item.description}}</p>
+      </mat-card-content>
+      <mat-card-footer>
+        <a routerLink="/players/{{item.id}}">SHOW</a>
+      </mat-card-footer>
+    </mat-card>
+  </div>
+  
