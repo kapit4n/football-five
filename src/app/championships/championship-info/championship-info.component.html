@@ -1,37 +1,37 @@
-<div>
-  <mat-card class="example-card">
-    <div class="banner-ch">
-        <img mat-card-image src="{{championship?.img}}" alt="Alt">
-    </div>
-    <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title>
-        <h1>{{championship?.name}}</h1>
-      </mat-card-title>
-    </mat-card-header>
-    <mat-card-content>
-      <p>
-        {{championship?.description}}
-      </p>
-    </mat-card-content>
+<mat-card class="example-card">
+  <div class="banner-ch">
+    <img mat-card-image src="{{championship?.img}}" alt="Alt">
+  </div>
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>
+      {{championship?.name}}
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      {{championship?.description}}
+    </p>
     <mat-card-actions>
       <button mat-button>LIKE</button>
       <button mat-button>SHARE</button>
     </mat-card-actions>
-  </mat-card>
-  <mat-tab-group>
-    <mat-tab label="Matches">
-      <div class="match-vs-container" *ngFor="let match of matches">
-        <app-match-vs [match]="match"></app-match-vs>
-      </div>
-    </mat-tab>
-    
-    <mat-tab label="Standings">
-      <app-standing-table-groups *ngIf="championship.groups" [standingGroups]="standingGroups"></app-standing-table-groups>
-      <app-standing-table *ngIf="!championship.groups" [standingTeams]="standingGroups"></app-standing-table>
-    </mat-tab>
-    <mat-tab label="Newsletters">
-      <app-newsletters [newsletters]="championship?.newsletters"></app-newsletters>
-    </mat-tab>
-  </mat-tab-group>
-</div>
+    <mat-tab-group>
+      <mat-tab label="Matches">
+        <div class="match-vs-container" *ngFor="let match of matches">
+          <app-match-vs [match]="match"></app-match-vs>
+        </div>
+      </mat-tab>
+  
+      <mat-tab label="Standings">
+        <app-standing-table-groups *ngIf="championship.groups" [standingGroups]="standingGroups">
+        </app-standing-table-groups>
+        <app-standing-table *ngIf="!championship.groups" [standingTeams]="standingGroups"></app-standing-table>
+      </mat-tab>
+      <mat-tab label="Newsletters">
+        <app-newsletters [newsletters]="championship?.newsletters"></app-newsletters>
+      </mat-tab>
+    </mat-tab-group>
+
+  </mat-card-content>
+</mat-card>
