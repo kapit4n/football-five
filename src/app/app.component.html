@@ -1,26 +1,26 @@
-<mat-sidenav-container class="example-container">
+<mat-sidenav-container class="example-container" style="min-height: 100%;" fullscreen>
   <mat-sidenav #sidenav mode="side" (closed)="events.push('close!')">
     <h3 matHeader>FAVORITES</h3>
     <mat-list>
-      <h3 matSubheader><a routerLink="championships">CHAMPIONSHIPS</a></h3>
+      <h3 matSubheader><a routerLink="championships"  (click)="sidenav.toggle()">CHAMPIONSHIPS</a></h3>
       <mat-list-item *ngFor="let item of championships">
         <img matListAvatar src="{{item.img}}" alt="...">
         <h4 matLine>
-         <a routerLink="championships/{{item.id}}">{{item.name}}</a></h4>
+         <a routerLink="championships/{{item.id}}" (click)="sidenav.toggle()">{{item.name}}</a></h4>
       </mat-list-item>
       <mat-divider></mat-divider>
       
-      <h3 matSubheader><a routerLink="teams">TEAMS</a></h3>
+      <h3 matSubheader><a routerLink="teams"  (click)="sidenav.toggle()">TEAMS</a></h3>
       <mat-list-item *ngFor="let item of teams">
         <img matListAvatar src="{{item.icon}}" alt="...">
-        <h4 matLine><a routerLink="teams/{{item.id}}">{{item.name}}</a></h4>
+        <h4 matLine><a routerLink="teams/{{item.id}}"  (click)="sidenav.toggle()">{{item.name}}</a></h4>
       </mat-list-item>
       <mat-divider></mat-divider>
 
-      <h3 matSubheader><a routerLink="players">PLAYERS</a></h3>
+      <h3 matSubheader><a routerLink="players"  (click)="sidenav.toggle()">PLAYERS</a></h3>
       <mat-list-item *ngFor="let item of players">
         <img matListAvatar src="{{item.icon}}" alt="...">
-        <h4 matLine><a routerLink="players/{{item.id}}">{{item.name}}</a></h4>
+        <h4 matLine><a routerLink="players/{{item.id}}"  (click)="sidenav.toggle()">{{item.name}}</a></h4>
       </mat-list-item>
     </mat-list>
     <br>
