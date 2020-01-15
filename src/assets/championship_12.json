@@ -1,0 +1,16 @@
+{
+    "id": 1,
+    "name": "Copa America 2019",
+    "description": "",
+    "img": "assets/copa_america_2019.jpg",
+    "banner": "assets/copa_america_2019.jpg",
+    "newsletters": [
+        {
+            "id": 1,
+            "title": "Neymar esta fuera de la Copa América 2019",
+            "description": "El futbolista sufrió este miércoles una \"ligera rotura de tobillo\" durante el partido amistoso entre las selecciones de Brasil y Catar.",
+            "date": "06/06/2019",
+            "img": "https://cdni.rt.com/actualidad/public_images/2019.06/article/5cf9947d08f3d9e5308b458b.JPG?v=2"
+          }
+    ]
+}

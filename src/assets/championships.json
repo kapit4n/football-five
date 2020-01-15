@@ -1,6 +1,49 @@
 [
   {
+    "id": 15,
+    "order": 4,
+    "name": "Champions league 2019 - 2020",
+    "description": "Championship description 2019 - 2020",
+    "img": "assets/champions_league_2019-20.png",
+    "banner": "assets/champions_league_2019-20.png",
+    "groups": true,
+    "newsletters": [
+      {
+        "id": 1,
+        "title": "Messi, with 80 million euros, tops the Forbes list of best-paid Latinos",
+        "description": "Of the ten best-paid Latinos in the entertainment industry in 2017, Argentinian Lionel Messi, Barcelona's star player, tops the list. Messi had earned 80 million dollars until last June, making him the highest paid footballer in the world.",
+        "date": "12/01/2018",
+        "img": "http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/12/28/15144398998516.jpg"
+      },
+      {
+        "id": 1,
+        "title": "Messi: Real Madrid's bogeyman",
+        "description": "After a magnificent year, Lionel Messi put the icing on the cake with a superb display at the Estadio Santiago Bernabeu to give his side victory in Saturday's Clasico.The Argentine has a special motivation when he plays against Real Madrid, and even more so when its on the turf of the Bernabeu.In fact, he has won more Clasicos in Madrid than he has at the Camp Nou.",
+        "date": "12/01/2018",
+        "img": "http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/12/24/15141207556649.jpg"
+      }
+    ]
+  },
+  {
     "id": 1,
+    "order": 5,
+    "name": "Eliminatorias Sudamericanas 2022",
+    "description": "The 2019 Copa América will be the 46th edition of the Copa América, the quadrennial international men's association football championship organized by South ...",
+    "img": "assets/eliminatorias_banner.jpg",
+    "banner": "assets/eliminatorias_banner.jpg",
+    "groups": true,
+    "newsletters": [
+      {
+        "id": 1,
+        "title": "El fixture completo de las Eliminatorias Sudamericanas rumbo a Qatar.",
+        "description": "El futbolista sufrió este miércoles una \"ligera rotura de tobillo\" durante el partido amistoso entre las selecciones de Brasil y Catar.",
+        "date": "06/06/2019",
+        "img": "https://cdni.rt.com/actualidad/public_images/2019.06/article/5cf9947d08f3d9e5308b458b.JPG?v=2"
+      }
+    ]
+  },
+  {
+    "id": 12,
     "order": 5,
     "name": "Copa America 2019",
     "description": "The 2019 Copa América will be the 46th edition of the Copa América, the quadrennial international men's association football championship organized by South ...",
@@ -20,8 +63,8 @@
   {
     "id": 11,
     "order": 4,
-    "name": "Champions league",
-    "description": "Championship description",
+    "name": "Champions league 2018 - 2019",
+    "description": "Championship description 2018 - 2019",
     "img": "assets/champions_league_banner.jpg",
     "banner": "assets/champions_league_banner.jpg",
     "groups": true,

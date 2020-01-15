@@ -2,12 +2,12 @@
     {
         "local": {
             "id": 1,
-            "name": "Uruguay",
+            "name": "Brazil",
             "icon": "https://ssl.gstatic.com/onebox/media/sports/logos/zKLzoJVYz0bb6oAnPUdwWQ_48x48.png"
         },
         "visit": {
             "id": 2,
-            "name": "Chile",
+            "name": "Bolivia",
             "icon": "https://ssl.gstatic.com/onebox/media/sports/logos/SGxeD7yhwPj53FmPBmMMHg_48x48.png"
         },
         "localGoal": 0,
@@ -19,12 +19,12 @@
     {
         "local": {
             "id": 2,
-            "name": "Colombia",
+            "name": "Venezuela",
             "icon": "https://ssl.gstatic.com/onebox/media/sports/logos/ohjuAvV5dzyPZSEWWNNd_Q_48x48.png"
         },
         "visit": {
             "id": 2,
-            "name": "Venezuela",
+            "name": "Peru",
             "icon": "https://ssl.gstatic.com/onebox/media/sports/logos/1ZizIpPB_eo-u8zYYjnFcg_48x48.png"
         },
         "localGoal": 0,
@@ -36,12 +36,12 @@
     {
         "local": {
             "id": 2,
-            "name": "Brasil",
+            "name": "Argentina",
             "icon": "https://ssl.gstatic.com/onebox/media/sports/logos/1xBWyjjkA6vEWopPK3lIPA_48x48.png"
         },
         "visit": {
             "id": 2,
-            "name": "Bolivia",
+            "name": "Colombia",
             "icon": "https://ssl.gstatic.com/onebox/media/sports/logos/tXHnA_tDylayacdjWQCJvw_48x48.png"
         },
         "localGoal": 0,
@@ -58,7 +58,7 @@
         },
         "visit": {
             "id": 2,
-            "name": "Peru",
+            "name": "Qatat",
             "icon": "https://ssl.gstatic.com/onebox/media/sports/logos/h0FNA5YxLzWChHS5K0o4gw_48x48.png"
         },
         "localGoal": 0,

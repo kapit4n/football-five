@@ -1,0 +1,108 @@
+[
+  {
+    "group": "A",
+    "teams": [
+      {
+        "team": {
+          "id": 1,
+          "name": "Atletico Madrid",
+          "img": "http://www.timelinecoverbanner.com/facebook-covers/2012/01/atletico-madrid.jpg",
+          "icon": "http://aux.iconspalace.com/uploads/atletico-madrid-logo-icon-256.png",
+          "players": []
+        },
+        "points": 6,
+        "MP": 2,
+        "GD": 3
+      },
+      {
+        "team": {
+          "id": 4,
+          "name": "Dortmund",
+          "img": "http://icons.iconarchive.com/icons/giannis-zographos/german-football-club/256/Borussia-Dortmund-icon.png",
+          "icon": "http://icons.iconarchive.com/icons/giannis-zographos/german-football-club/256/Borussia-Dortmund-icon.png",
+          "players": []
+        },
+        "points": 6,
+        "MP": 2,
+        "GD": 4
+      },
+      {
+        "team": {
+          "id": 2,
+          "name": "Monaco",
+          "img": "http://aux.iconspalace.com/uploads/as-monaco-logo-icon-256.png",
+          "icon": "http://aux.iconspalace.com/uploads/as-monaco-logo-icon-256.png",
+          "players": []
+        },
+        "points": 0,
+        "MP": 2,
+        "GD": -4
+      },
+      {
+        "team": {
+          "id": 3,
+          "name": "Club Brugge",
+          "img": "http://futhead.cursecdn.com/static/img/17/clubs/231.png",
+          "icon": "http://futhead.cursecdn.com/static/img/17/clubs/231.png",
+          "players": []
+        },
+        "points": 0,
+        "MP": 2,
+        "GD": -3
+      }
+    ]
+  },
+  {
+    "group": "B",
+    "teams": [
+      {
+        "team": {
+          "id": 1,
+          "name": "Barcelona",
+          "img": "http://static.tumblr.com/6128b90a182ae6c0bc37190cbc700ad0/muykxvc/fo8nad02f/tumblr_static_7g0xraagoo84sogssw0swssg4.jpg",
+          "icon": "http://icons.iconarchive.com/icons/giannis-zographos/spanish-football-club/256/FC-Barcelona-icon.png",
+          "players": []
+        },
+        "points": 6,
+        "MP": 2,
+        "GD": 6
+      },
+      {
+        "team": {
+          "id": 4,
+          "name": "Inter Milan",
+          "img": "https://s3.amazonaws.com/99Covers-Facebook-Covers/watermark/4470.jpg",
+          "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Inter_Milan.svg/1200px-Inter_Milan.svg.png",
+          "players": []
+        },
+        "points": 3,
+        "MP": 6,
+        "GD": 2
+      },
+      {
+        "team": {
+          "id": 2,
+          "name": "Tottenham",
+          "img": "http://aux2.iconspalace.com/uploads/tottenham-hotspur-logo-icon-256.png",
+          "icon": "http://aux2.iconspalace.com/uploads/tottenham-hotspur-logo-icon-256.png",
+          "players": []
+        },
+        "points": 0,
+        "MP": 2,
+        "GD": -3
+      },
+      {
+        "team": {
+          "id": 3,
+          "name": "PSV Eindhoven",
+          "img": "http://aux2.iconspalace.com/uploads/psv-eindhoven-logo-icon-256.png",
+          "icon": "http://aux2.iconspalace.com/uploads/psv-eindhoven-logo-icon-256.png",
+          "players": []
+        },
+        "points": 0,
+        "MP": 2,
+        "GD": -5
+      }
+    ]
+  }
+]
