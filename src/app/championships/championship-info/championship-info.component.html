@@ -1,11 +1,12 @@
 <mat-card class="example-card">
-  <div class="banner-ch">
-    <img mat-card-image src="{{championship?.img}}" alt="Alt">
+  <div class="banner-ch" [style.margin]="'1rem'">
+    <img [style.max-height]="'150px'" mat-card-image src="{{championship?.img}}" alt="Alt">
   </div>
   <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
     <mat-card-title>
-      {{championship?.name}}
+      <h1 [style.margin-left]="'-1rem'">
+        {{championship?.name}}
+      </h1>
     </mat-card-title>
   </mat-card-header>
   <mat-card-content>
@@ -22,7 +23,7 @@
           <app-match-vs [match]="match"></app-match-vs>
         </div>
       </mat-tab>
-  
+
       <mat-tab label="Standings">
         <app-standing-table-groups *ngIf="championship.groups" [standingGroups]="standingGroups">
         </app-standing-table-groups>
