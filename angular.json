@@ -132,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "football-five"
+  "defaultProject": "football-five",
+  "cli": {
+    "analytics": "c391b63f-c404-4d13-9429-c331ff54d8de"
+  }
 }

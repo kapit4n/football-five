@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 
 import { ChampionshipsService } from './services/championships.service';
 import { ConfService } from './services/conf.service';
+import { PlayerService } from './services/player.service';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { ConfService } from './services/conf.service';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [ConfService, ChampionshipsService],
+  providers: [ConfService, ChampionshipsService, PlayerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
