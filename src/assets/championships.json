@@ -1,11 +1,37 @@
 [
   {
-    "id": 15,
+    "id": 17,
     "order": 4,
-    "name": "Champions league 2019 - 2020",
-    "description": "Championship description 2019 - 2020",
-    "img": "assets/champions_league_2019-20.png",
-    "banner": "assets/champions_league_2019-20.png",
+    "name": "Champions league 2021 - 2022",
+    "description": "Championship description 2021 - 2022",
+    "img": "assets/champions_league_2021-22.jpeg",
+    "banner": "assets/champions_league_2021-22.jpeg",
+    "groups": true,
+    "stage": "groups",
+    "newsletters": [
+      {
+        "id": 1,
+        "title": "PSG de la historia",
+        "description": "Así queda el mejor PSG de la historia: 33 fichas, segundo club más valioso y con dudas del control financiero",
+        "date": "12/01/2021",
+        "img": "https://phantom-marca.unidadeditorial.es/f26305d742d1d576d6fc27472902429e/resize/660/f/webp/assets/multimedia/imagenes/2021/09/01/16305140533087.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Messi: PSG",
+        "description": "After a magnificent year, Lionel Messi put the icing on the cake with a superb display at the Estadio Santiago Bernabeu to give his side victory in Saturday's Clasico.The Argentine has a special motivation when he plays against Real Madrid, and even more so when its on the turf of the Bernabeu.In fact, he has won more Clasicos in Madrid than he has at the Camp Nou.",
+        "date": "12/01/2018",
+        "img": "http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/12/24/15141207556649.jpg"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "order": 4,
+    "name": "Champions league 2020 - 2021",
+    "description": "Championship description 2021 - 2022",
+    "img": "assets/champions_league_2021-22.jpeg",
+    "banner": "assets/champions_league_2021-22.jpeg",
     "groups": true,
     "stage": "groups",
     "newsletters": [
@@ -25,6 +51,33 @@
       }
     ]
   },
+  {
+    "id": 15,
+    "order": 4,
+    "name": "Champions league 2021 - 2022",
+    "description": "Championship description 2021 - 2022",
+    "img": "assets/champions_league_2021-22.jpeg",
+    "banner": "assets/champions_league_2021-22.jpeg",
+    "groups": true,
+    "stage": "groups",
+    "newsletters": [
+      {
+        "id": 1,
+        "title": "Messi, with 80 million euros, tops the Forbes list of best-paid Latinos",
+        "description": "Of the ten best-paid Latinos in the entertainment industry in 2017, Argentinian Lionel Messi, Barcelona's star player, tops the list. Messi had earned 80 million dollars until last June, making him the highest paid footballer in the world.",
+        "date": "12/01/2018",
+        "img": "http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/12/28/15144398998516.jpg"
+      },
+      {
+        "id": 1,
+        "title": "Messi: Real Madrid's bogeyman",
+        "description": "After a magnificent year, Lionel Messi put the icing on the cake with a superb display at the Estadio Santiago Bernabeu to give his side victory in Saturday's Clasico.The Argentine has a special motivation when he plays against Real Madrid, and even more so when its on the turf of the Bernabeu.In fact, he has won more Clasicos in Madrid than he has at the Camp Nou.",
+        "date": "12/01/2018",
+        "img": "http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/12/24/15141207556649.jpg"
+      }
+    ]
+  },
+
   {
     "id": 1,
     "order": 5,

@@ -1,0 +1,108 @@
+[
+  {
+    "group": "A",
+    "teams": [
+      {
+        "team": {
+          "id": 1,
+          "name": "Club Brugge",
+          "img": "http://futhead.cursecdn.com/static/img/17/clubs/231.png",
+          "icon": "http://futhead.cursecdn.com/static/img/17/clubs/231.png",
+          "players": []
+        },
+        "points": 0,
+        "MP": 0,
+        "GD": 0
+      },
+      {
+        "team": {
+          "id": 2,
+          "name": "Man City",
+          "img": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
+          "icon": "https://image.shutterstock.com/image-vector/manchester-city-england-sep-2018-260nw-1207379491.jpg",
+          "players": []
+        },
+        "points": 0,
+        "MP": 0,
+        "GD": 0
+      },
+      {
+        "team": {
+          "id": 3,
+          "name": "PSG",
+          "img": "",
+          "icon": "",
+          "players": []
+        },
+        "points": 0,
+        "MP": 0,
+        "GD": 0
+      },
+      {
+        "team": {
+          "id": 4,
+          "name": "RB Leipzig",
+          "img": "",
+          "icon": "",
+          "players": []
+        },
+        "points": 0,
+        "MP": 0,
+        "GD": 0
+      }
+    ]
+  },
+  {
+    "group": "B",
+    "teams": [
+      {
+        "team": {
+          "id": 1,
+          "name": "Milan",
+          "img": "",
+          "icon": "",
+          "players": []
+        },
+        "points": 0,
+        "MP": 0,
+        "GD": 0
+      },
+      {
+        "team": {
+          "id": 2,
+          "name": "Atletico Madrid",
+          "img": "",
+          "icon": "",
+          "players": []
+        },
+        "points": 0,
+        "MP": 0,
+        "GD": 0
+      },
+      {
+        "team": {
+          "id": 3,
+          "name": "Liverpool",
+          "img": "",
+          "icon": "",
+          "players": []
+        },
+        "points": 0,
+        "MP": 0,
+        "GD": 0
+      },
+      {
+        "team": {
+          "id": 4,
+          "name": "Porto",
+          "img": "",
+          "icon": "",
+          "players": []
+        },
+        "points": 0,
+        "MP": 0,
+        "GD": 0
+      }
+    ]
+  }
+]

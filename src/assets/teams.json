@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "code": "barcelona",
     "name": "Barcelona",
     "img": "http://static.tumblr.com/6128b90a182ae6c0bc37190cbc700ad0/muykxvc/fo8nad02f/tumblr_static_7g0xraagoo84sogssw0swssg4.jpg",
     "icon": "http://icons.iconarchive.com/icons/giannis-zographos/spanish-football-club/256/FC-Barcelona-icon.png",
@@ -41,6 +42,7 @@
   {
     "id": 2,
     "name": "Real Madrid",
+    "code": "real_madrid",
     "img": "http://www.dawsontravel.ie/assets/userfiles/slide%20Real%202.jpg",
     "icon": "http://icons.iconarchive.com/icons/giannis-zographos/spanish-football-club/256/Real-Madrid-icon.png",
     "players": [
@@ -63,42 +65,49 @@
   {
     "id": 3,
     "name": "Chelsea",
+    "code": "chelsea",
     "img": "http://www.f-covers.com/cover/chelsea-fc-facebook-cover-timeline-banner-for-fb.jpg",
     "icon": "http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/256/Chelsea-FC-icon.png"
   },
   {
     "id": 4,
     "name": "PSG",
+    "code": "psg",
     "img": "https://www.nvsoccer.com/media/catalog/category/PSG_BANNER.png",
     "icon": "http://www.futbol24.com/upload/team/France/Paris-St-Germain.png"
   },
   {
     "id": 5,
     "name": "Juventus",
+    "code": "juventus",
     "img": "https://ugc.kn3.net/i/origin/http://juventus.50webs.org/images/banner_juve.jpg",
     "icon": "http://www.futbol24.com/upload/team/Italy/Juventus-FC.png"
   },
   {
     "id": 6,
     "name": "Tottenham",
+    "code": "tothenham",
     "img": "http://articles.squarefootball.net/.a/6a00e552103050883401901ce21f0f970b-pi",
     "icon": "http://www.futbol24.com/upload/team/England/Tottenham.png"
   },
   {
     "id": 7,
     "name": "FC Basel",
+    "code": "fc_basel",
     "img": "https://shop.fcb.ch/out/zoxidchild/img/logo-mobile-fcbasel.svg",
     "icon": "http://www.futbol24.com/upload/team/Switzerland/FC-Basel.png"
   },
   {
     "id": 8,
     "name": "Manchester City",
+    "code": "man_city",
     "img": "https://www.nvsoccer.com/media/catalog/category/MANCHESTER_CITY_BANNER.png",
     "icon": "https://pespespes.files.wordpress.com/2013/07/manchester-city-fc.png"
   },
   {
     "id": 9,
     "name": "Bayern Munich",
+    "code": "bayer",
     "img": "http://www.dawsontravel.ie/assets/userfiles/slide%20Bayern%201.jpg",
     "icon": "http://www.futbol24.com/upload/team/Germany/Bayern-Munchen.png"
   },
@@ -111,17 +120,20 @@
   {
     "id": 11,
     "name": "Manchester United",
+    "code": "man_united",
     "img": "http://www.f-covers.com/cover/manchester-united-football-club-facebook-cover-timeline-banner-for-fb.jpg",
     "icon": "http://www.futbol24.com/upload/team/England/Manchester-United.png"
   },
   {
     "id": 12,
     "name": "Liverpool",
+    "code": "liverpool",
     "img": "https://i.pinimg.com/originals/af/2a/b2/af2ab2d1d60e6ce354eb7fb6e665f4f4.jpg",
     "icon": "https://img00.deviantart.net/2cc6/i/2008/016/c/c/liverpool_fc_dock_icon_by_jackbarnard.png"
   },
   {
     "id": 13,
+    "code": "atletico_madrid",
     "name": "Atletico Madrid",
     "img": "http://www.timelinecoverbanner.com/facebook-covers/2012/01/atletico-madrid.jpg",
     "icon": "http://icons.iconarchive.com/icons/giannis-zographos/spanish-football-club/256/Atletico-Madrid-icon.png"

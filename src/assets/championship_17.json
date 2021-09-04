@@ -1,0 +1,23 @@
+{
+  "id": 17,
+  "name": "Champions league 2021-22",
+  "description": "Championship description 2021 - 22",
+  "img": "assets/champions_league_2021-22.png",
+  "banner": "assets/champions_league_2021-22.png",
+  "newsletters": [
+    {
+      "id": 1,
+      "title": "PSG de la historia",
+      "description": "Así queda el mejor PSG de la historia: 33 fichas, segundo club más valioso y con dudas del control financiero",
+      "date": "12/01/2021",
+      "img": "https://phantom-marca.unidadeditorial.es/f26305d742d1d576d6fc27472902429e/resize/660/f/webp/assets/multimedia/imagenes/2021/09/01/16305140533087.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Messi: PSG",
+      "description": "After a magnificent year, Lionel Messi put the icing on the cake with a superb display at the Estadio Santiago Bernabeu to give his side victory in Saturday's Clasico.The Argentine has a special motivation when he plays against Real Madrid, and even more so when its on the turf of the Bernabeu.In fact, he has won more Clasicos in Madrid than he has at the Camp Nou.",
+      "date": "12/01/2018",
+      "img": "http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/12/24/15141207556649.jpg"
+    }
+  ]
+}
