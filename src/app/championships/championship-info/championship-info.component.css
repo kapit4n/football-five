@@ -1,0 +1,22 @@
+.example-card {
+  background-color: whitesmoke;
+}
+
+.banner-ch {
+  margin-bottom: 0;
+  height: 10rem;
+  overflow: hidden;
+}
+
+.banner-img {
+  position: relative;
+  top: -17rem;
+}
+
+.card-header {
+  color: lightskyblue;
+}
+
+.card-content {
+  color: gray;
+}

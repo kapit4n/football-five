@@ -1,15 +1,15 @@
 <mat-card class="example-card">
-  <div class="banner-ch" [style.margin]="'1rem'">
-    <img [style.max-height]="'150px'" mat-card-image src="{{championship?.img}}" alt="Alt">
+  <div class="banner-ch">
+    <img class="banner-img" mat-card-image src="{{championship?.img}}" alt="Alt">
   </div>
-  <mat-card-header>
+  <mat-card-header class="card-header">
     <mat-card-title>
       <h1 [style.margin-left]="'-1rem'">
         {{championship?.name}}
       </h1>
     </mat-card-title>
   </mat-card-header>
-  <mat-card-content>
+  <mat-card-content class="card-content">
     <p>
       {{championship?.description}}
     </p>

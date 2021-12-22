@@ -4,8 +4,8 @@
     "order": 4,
     "name": "Champions league 2021 - 2022",
     "description": "Championship description 2021 - 2022",
-    "img": "assets/champions_league_2021-22.jpeg",
-    "banner": "assets/champions_league_2021-22.jpeg",
+    "img": "assets/champions_league.jpg",
+    "banner": "assets/champions_league.jpg",
     "groups": true,
     "stage": "groups",
     "newsletters": [
